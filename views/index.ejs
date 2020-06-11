@@ -2,19 +2,41 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Twitter Video Downloader</title>
+        <title>Twittlet</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="shortcut icon" href="https://strelizia.cc/5CuE4yiOCaLWkG1JdZC6Ji8Oi9tEpTBC.png" type="image/png">
     </head>
     <body>
+        <style>
+            @media (prefers-color-scheme: dark) {
+                html, body {
+                    background-color: #202124;
+                }
+                .pcsTxt {
+                    color: #ffffff;
+                }
+            }
+            @media (prefers-color-scheme: light) {
+                html, body {
+                    background-color: unset;
+                    color: unset;
+                }
+                .pcsTxt {
+                    color: unset;
+                }
+            }
+        </style>
         <div class="container my-5">
-            <h1>Twitter Video Downloader</h1>
-            <p><%= error %></p>
-            <form action="/submitData" method="post" class="my-4 form-inline">
-                <input type="text" name="urlInput" id="urlInput" class="form-control mr-2">
-                <button type="submit" class="btn btn-success">Get video</button>
+            <h1 class="pcsTxt">Twittlet <%= tAddon %></h1>
+            <%- modeRef %> 
+            <p class="pcsTxt"><%= error %></p>
+            <form action="<%= modeAction %> " method="post" class="my-4 form-inline">
+                <input type="text" name="urlInput" id="urlInput" class="form-control mr-2" placeholder="Twitter Post's URL" required>
+                <button type="submit" class="btn btn-success"><%= buttonContext %> </button>
             </form>
+            <%- videoLinks %> 
         </div>
     </body>
 </html>

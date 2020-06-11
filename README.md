@@ -9,7 +9,10 @@ No.
 Will probably end up adding some of the few things down below.
 
 - [ ] YouTube + other service(s) support
-- [ ] Clean up codebase, namely `server.js`...
+- [x] Clean up codebase, namely `server.js`...
+- [ ] Add handling to remove the .m3u8 file from the returned data.
+- [ ] Add a method to get the size of the files (both dimensions and data size) and list that next to the links.
+- [ ] Possible Bootstrap menu for cleaner look and tidy-ness.
 
 ### Also
 `app.js` is just me testing to see if this package will even work. Way cleaner than the actual `server.js` codebase so if you are going to nab this, please nab that.
