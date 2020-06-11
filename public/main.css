@@ -1,0 +1,13 @@
+.hideme {
+    opacity: 0;
+}
+
+/* https://stackoverflow.com/questions/14396614/rotate-image-with-onclick */
+.rotated {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+.rotateme { transition: all 0.5s ease; }

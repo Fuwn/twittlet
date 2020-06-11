@@ -3,12 +3,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Twittlet</title>
-        <meta name="description" content="">
+        <link rel="stylesheet" href="main.css">
+        <meta name="description" content="Twittlet- A simple Twitter media downloader.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="shortcut icon" href="https://strelizia.cc/5CuE4yiOCaLWkG1JdZC6Ji8Oi9tEpTBC.png" type="image/png">
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
     </head>
-    <body>
+    <body class="hideme">
         <style>
             @media (prefers-color-scheme: dark) {
                 html, body {
@@ -28,8 +33,15 @@
                 }
             }
         </style>
+
+        <a href="#">
+            <img class="rotateme" src="https://strelizia.cc/5CuE4yiOCaLWkG1JdZC6Ji8Oi9tEpTBC.png"
+                alt="icon but next to heading lol" height="53px" style="position: fixed; left: 5px; top: 5px;">
+        </a>
+
         <div class="container my-5">
             <h1 class="pcsTxt">Twittlet <%= tAddon %></h1>
+
             <%- modeRef %> 
             <p class="pcsTxt"><%= error %></p>
             <form action="<%= modeAction %> " method="post" class="my-4 form-inline">
