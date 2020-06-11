@@ -1,7 +1,7 @@
 # Twittlet
 
 ## What?
-Got a little bored and realized that I want to eventually add a downloader service to my projects site which interacts with my Twitter bot. This is in a very early stage and at the moment its just a Twitter media API.
+Got a little bored and realized that I want to eventually add a downloader service to my projects site which interacts with my Twitter bot. This is in a very early stage and at the moment its just a simple Twitter media API and downloader.
 
 ## Is it done?
 No.
