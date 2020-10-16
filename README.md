@@ -1,5 +1,5 @@
 # Twittlet
-[![license](https://img.shields.io/badge/license-MIT_License_with_anime_exception-green.svg)](https://github.com/8cy/twittlet/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT_License_with_anime_exception-green.svg)](https://github.com/fuwn/twittlet/blob/master/LICENSE)
 
 ## Demo
 <img src="https://strelizia.cc/9p0uAzxmxqUrh4FaEAGpI4PdWrx7CgF7.gif" alt="demo" width="600px">
@@ -27,7 +27,7 @@ Will probably end up adding some of the few things down below.
 
 ### Links
 * [Website](https://kyzer.co/)
-* [GitHub](https://github.com/8cy/twittlet)
+* [GitHub](https://github.com/fuwn/twittlet)
 
 ### License
 MIT
